@@ -12,17 +12,70 @@ header{
     align-items: center;
 }
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
 }
 .logo{
-    width: 6rem;
-    height: 6rem;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 50%;
     margin-left: 7rem;
 }
 .header-line{
     height: 8px;
     background-color: #7bc3ed;
+}
+.container-products{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.img-product{
+    width: 12rem;
+    height: 11rem;
+    border-radius: 1rem;
+}
+.product{
+    width: 14rem;
+    height: 22rem;
+    background-color: #7bc3ed;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-content: center;
+}
+footer{
+    background-color: #a09fec;
+    width: 100%;
+    height: 5rem;
+    margin-top: 2rem;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+}
+button{
+    background-color: #b7b6ee;
+    border-radius: 1rem;
+}
+.buy{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.btn-cart{
+    background-color: white;
+}
+.cart {
+    position: absolute;
+    top: 10rem; 
+    right: 2rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }

@@ -1,22 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEDDYS STORE</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div>
-        <H1>PELUCHERIA MAGICA</H1> <br>
-        ¡PEQUEÑOS COMPAÑEROS PARA GRANDES MOMENTOS!
+            <H1>PELUCHERIA MAGICA</H1> <br>
+            ¡PEQUEÑOS COMPAÑEROS PARA GRANDES MOMENTOS!
+        </div>
+        <div class="logo-cart">
+        <img class="logo" src="assets/Download Cartoon rabbit, bear, elephant, ball, drum and pyramid for free.jfif"
+            alt="logo">
+            <button class="btn-cart" id="cart-toggle"> <img class="buy"
+                src="assets/Shop_Cart_PNG_Picture__Purple_Shopping_Cart_Bear_Illustration__Shopping_Cart__Purple_Shopping_Cart__Coffee_Colored_Bear_PNG_Image_For_Free_Download-removebg-preview.png"
+                alt=""></button>
+        <div class="cart" id="cart-section" style="display: none;">
+            <div id="cart-items"></div>
+            <p id="cart-total">Total: $0</p>
+            <button id="checkout">Comprar</button>
+        </div>
     </div>
-        <img class="logo" src="assets/Download Cartoon rabbit, bear, elephant, ball, drum and pyramid for free.jfif" alt="logo">
     </header>
     <hr class="header-line">
-    <div class="container">
-        
+    <div class="container-products">
+        <div>
+            <div class="product">
+                <h2>Peluche Osito</h2>
+                <img class="img-product"
+                    src="assets/20cm_7_87in Juguetes De Peluche De Animales Lindos De Dibujos Animados, Koala De Peluche, Cerdo De Peluche, Zorro De Peluche, Dinosaurio De Peluche, Animales De Peluche Suaves, Muñecos De Peluche Cre.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 30cm. <br>
+                    Precio: $30.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Lotso</h2>
+                <img class="img-product"
+                    src="assets/34_72US _Toy Story Bear Strawberry Lotso Kawaii Cute Disney Sofa Plush Pillow Stuffed Toy Children Girl Friends Christmas Birthday Gift_ _ - AliExpress.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 70cm. <br>
+                    Precio: $90.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Generosita</h2>
+                <img class="img-product"
+                    src="assets/Care Bears 18_ Plush - Share Bear with Glitter Belly Badge - Soft Huggable Material!.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 50cm. <br>
+                    Precio: $60.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Stitch</h2>
+                <img class="img-product" src="assets/descarga (1).jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 40cm. <br>
+                    Precio: $40.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+        </div>
+        <div>
+            <div class="product">
+                <h2>Peluche Erizo</h2>
+                <img class="img-product" src="assets/descarga (2).jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 20cm. <br>
+                    Precio: $25.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Jirafa</h2>
+                <img class="img-product" src="assets/descarga (3).jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 30cm. <br>
+                    Precio: $35.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+
+            <div class="product">
+                <h2>Peluche Conejo</h2>
+                <img class="img-product" src="assets/descarga.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 45cm. <br>
+                    Precio: $50.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Stitch</h2>
+                <img class="img-product"
+                    src="assets/Disney Baby Lilo & Stitch Soft Huggable Stuffed Animal Cute Plush Toy for Toddler Boys and Girls, Gift for Kids, Blue Stitch 15 Inches.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 40cm. <br>
+                    Precio: $40.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+        </div>
+        <div>
+            <div class="product">
+                <h2>Peluche Elefante</h2>
+                <img class="img-product"
+                    src="assets/Toys Studio 19_6 Inch Stuffed Elephant Animal Soft Giant Elephant Plush Gift for Girls, Boys (Gray).jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 50cm. <br>
+                    Precio: $50.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Oso</h2>
+                <img class="img-product" src="assets/Urso de pelucia.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 40cm. <br>
+                    Precio: $50.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Elefante Bebé</h2>
+                <img class="img-product" src="assets/elefante.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 20cm. <br>
+                    Precio: $20.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Capibara</h2>
+                <img class="img-product"
+                    src="assets/Fluffy Capybara Plush Doll Kawaii Capybara With Tortoise Stuffed Toy Stuffed Animals Kids Birthday Gift Home Decor, Size_23cm_190g, Brown.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 20cm. <br>
+                    Precio: $15.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+        </div>
+        <div>
+            <div class="product">
+                <h2>Peluche Mono</h2>
+                <img class="img-product" src="assets/Monkey Plush Toy.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 40cm. <br>
+                    Precio: $45.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Unicornio</h2>
+                <img class="img-product" src="assets/Sleepy Unicorn Plush Toy - Blue _ 14in (35cm).jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 60cm. <br>
+                    Precio: $70.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Conejo</h2>
+                <img class="img-product"
+                    src="assets/Rosa Incienso Conejo Peluche Juguete Simulación Animal - White _ 90cm.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 50cm. <br>
+                    Precio: $50.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Oveja</h2>
+                <img class="img-product" src="assets/Pink lamb.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 35cm. <br>
+                    Precio: $30.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+        </div>
+        <div>
+            <div class="product">
+                <h2>Peluche Osita</h2>
+                <img class="img-product" src="assets/Teddy Bear With Bubble Tea Plush Toy.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 30cm. <br>
+                    Precio: $30.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Osita Multicolor</h2>
+                <img class="img-product" src="assets/teddy.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 50cm. <br>
+                    Precio: $65.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Coneja bebé</h2>
+                <img class="img-product"
+                    src="assets/Temu _ Explore the Latest Clothing, Beauty, Home, Jewelry & More.jpg" alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 25cm. <br>
+                    Precio: $40.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+            <div class="product">
+                <h2>Peluche Pingüino</h2>
+                <img class="img-product"
+                    src="assets/this little guy is adorable, but pretty much anything with a penguin on it will do.jpg"
+                    alt="">
+                <p>Peluche 100% algodon. <br>
+                    Tamaño 55cm. <br>
+                    Precio: $60.000.
+                </p>
+                <button>Agregar Al Carrito</button>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="contact">
+            Información de Contacto: <br>
+            Correo Electronico: peluMagica@gmail.com <br>
+            Telefono: 3104252985 <br>
+        </div>
+        <div class="contact">
+            Instagram: Pelucheria.Magica.123 <br>
+            Direccion: Carrera 14 #15 - 24 <br>
+            Armenia, Quindio
+        </div>
+    </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>
